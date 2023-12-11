@@ -1,5 +1,4 @@
 <!doctype html>
-<!-- Toggle dark class to switch between dark and light mode	 -->
 <html class="dark">
 
 <head>
@@ -317,6 +316,77 @@
 				</div>
 			</div>
 		</div>
+
+
+		<!-- Cart -->
+		<div class="fixed top-0 left-0 w-screen h-screen z-50 bg-black/60 backdrop-blur-sm">
+			<div
+				class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[420px] sm:max-w-[600px] lg:max-w-[790px] p-4 max-h-[90vh] overflow-auto">
+				<div class="bg-white shadow-md dark:bg-[#12141D] rounded-2xl overflow-hidden p-5 md:p-9">
+					<h2 class="text-2xl lg:text-[30px] mb-10 font-bold">Your Carts</h2>
+					<div class="space-y-8 lg:space-y-12 max-h-[450px] overflow-auto mb-10 lg:mb-14">
+						<div class="grid grid-cols-[1fr_auto] gap-4">
+							<div class="flex items-center gap-4">
+								<img class="rounded overflow-hidden" src="/assets/cart-item.png" alt="">
+								<div>
+									<h3 class="text-base md:text-xl font-bold">Iron Man</h3>
+									<p class="max-md:text-xs text-[#575A6E]">Action/Adventure/Sci-fi</p>
+									<span class="max-md:text-xs">$100</span>
+								</div>
+							</div>
+							<div class="flex justify-between gap-4 items-center">
+								<button class="bg-[#D42967] rounded-md p-2 md:px-4  inline-flex items-center space-x-2 text-white">
+									<img class="w-5 h-5" src="/assets/delete.svg" alt="">
+									<span class="max-md:hidden">Remove</span>
+								</button>
+							</div>
+						</div>
+						<div class="grid grid-cols-[1fr_auto] gap-4">
+							<div class="flex items-center gap-4">
+								<img class="rounded overflow-hidden" src="/assets/cart-item.png" alt="">
+								<div>
+									<h3 class="text-base md:text-xl font-bold">Iron Man</h3>
+									<p class="max-md:text-xs text-[#575A6E]">Action/Adventure/Sci-fi</p>
+									<span class="max-md:text-xs">$100</span>
+								</div>
+							</div>
+							<div class="flex justify-between gap-4 items-center">
+								<button class="bg-[#D42967] rounded-md p-2 md:px-4  inline-flex items-center space-x-2 text-white">
+									<img class="w-5 h-5" src="/assets/delete.svg" alt="">
+									<span class="max-md:hidden">Remove</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="flex items-center justify-end gap-2">
+						<a class="rounded-md p-2 md:px-4  inline-flex items-center space-x-2 bg-primary text-[#171923] text-sm"
+							href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g id="Group 48095429">
+									<path id="Vector"
+										d="M4 19C4 19.5304 4.21071 20.0391 4.58579 20.4142C4.96086 20.7893 5.46957 21 6 21C6.53043 21 7.03914 20.7893 7.41421 20.4142C7.78929 20.0391 8 19.5304 8 19C8 18.4696 7.78929 17.9609 7.41421 17.5858C7.03914 17.2107 6.53043 17 6 17C5.46957 17 4.96086 17.2107 4.58579 17.5858C4.21071 17.9609 4 18.4696 4 19Z"
+										stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path id="Vector_2"
+										d="M15 19C15 19.5304 15.2107 20.0391 15.5858 20.4142C15.9609 20.7893 16.4696 21 17 21C17.5304 21 18.0391 20.7893 18.4142 20.4142C18.7893 20.0391 19 19.5304 19 19C19 18.4696 18.7893 17.9609 18.4142 17.5858C18.0391 17.2107 17.5304 17 17 17C16.4696 17 15.9609 17.2107 15.5858 17.5858C15.2107 17.9609 15 18.4696 15 19Z"
+										stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path id="Vector_3" d="M17 17H6V3H4" stroke="currentColor" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round" />
+									<path id="Vector_4" d="M6 5L20 6L19 13H6" stroke="currentColor" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round" />
+								</g>
+							</svg>
+							<span>Checkout</span>
+						</a>
+						<a class="border border-[#74766F] rounded-lg py-2 px-5 inline-flex items-center justify-center gap-2 text-[#6F6F6F] font-semibold text-sm"
+							href="#">
+							Cancel
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Cart -->
+
 	</main>
 	<!-- End Main -->
 
