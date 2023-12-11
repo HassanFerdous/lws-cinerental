@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tasker | Learn with Sumit</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;400;700&family=Sora&display=swap"
+		rel="stylesheet" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					container: {
+						center: true,
+						padding: "1.25rem",
+					},
+					colors: {
+						primary: '#B4D429'
+					},
+				},
+			},
+		};
+	</script>
+</head>
+
+<body class="bg-[#1D1E28] font-[Inter] text-white">
+	<!-- Begin header -->
+	<header>
+		<nav class="container flex items-center justify-between space-x-10 py-6">
+			<a href="index.html">
+				<img src="/assets/logo.svg" width="139" height="26" alt="">
+			</a>
+
+			<ul class="flex items-center space-x-5">
+				<li>
+					<a class="bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
+						<img src="/assets/ring.svg" width="24" height="24" alt="">
+					</a>
+				</li>
+				<li>
+					<a class="bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
+						<img src="/assets/gear.svg" width="24" height="24" alt="">
+					</a>
+				</li>
+				<li>
+					<a class="bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block" href="#">
+						<img src="/assets/shopping-cart.svg" width="24" height="24" alt="">
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- End Header -->
+
+	<!-- Begin Main -->
+	<main>
+		<div class="container grid md:grid-cols-[218px_1fr] gap-[3.5rem]">
+			<!-- Sidebar -->
+			<aside>
+				<ul>
+					<li>
+						<a class="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-primary text-black" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<g clip-path="url(#clip0_58_131)">
+									<path
+										d="M12 12C14 9.04 12 5 11 4C11 7.038 9.227 8.741 8 10C6.774 11.26 6 13.24 6 15C6 16.5913 6.63214 18.1174 7.75736 19.2426C8.88258 20.3679 10.4087 21 12 21C13.5913 21 15.1174 20.3679 16.2426 19.2426C17.3679 18.1174 18 16.5913 18 15C18 13.468 16.944 11.06 16 10C14.214 13 13.209 13 12 12Z"
+										stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</g>
+								<defs>
+									<clipPath id="clip0_58_131">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<span>Trending</span>
+						</a>
+					</li>
+					<li>
+						<a class="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<g clip-path="url(#clip0_58_136)">
+									<path d="M3 17L9 11L13 15L21 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 7H21V14" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</g>
+								<defs>
+									<clipPath id="clip0_58_136">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<span>New Releases</span>
+						</a>
+					</li>
+					<li>
+						<a class="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<g clip-path="url(#clip0_58_142)">
+									<path
+										d="M4 7C4 6.46957 4.21071 5.96086 4.58579 5.58579C4.96086 5.21071 5.46957 5 6 5H18C18.5304 5 19.0391 5.21071 19.4142 5.58579C19.7893 5.96086 20 6.46957 20 7V19C20 19.5304 19.7893 20.0391 19.4142 20.4142C19.0391 20.7893 18.5304 21 18 21H6C5.46957 21 4.96086 20.7893 4.58579 20.4142C4.21071 20.0391 4 19.5304 4 19V7Z"
+										stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M16 3V7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M8 3V7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M4 11H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M7 14H7.013" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M10.01 14H10.015" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M13.01 14H13.015" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M16.0149 14H16.0199" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M13.0149 17H13.0199" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M7.01001 17H7.01501" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M10.01 17H10.015" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</g>
+								<defs>
+									<clipPath id="clip0_58_142">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<span>Coming Soon</span>
+						</a>
+					</li>
+					<li>
+						<a class="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<g clip-path="url(#clip0_58_157)">
+									<path
+										d="M19.5001 12.572L12.0001 20L4.50006 12.572C4.00536 12.0906 3.6157 11.512 3.3556 10.8726C3.09551 10.2333 2.97062 9.54694 2.98879 8.85693C3.00697 8.16691 3.16782 7.48813 3.46121 6.86333C3.75461 6.23853 4.17419 5.68125 4.69354 5.22657C5.21289 4.7719 5.82076 4.42968 6.47887 4.22147C7.13697 4.01327 7.83106 3.94358 8.51743 4.0168C9.20379 4.09001 9.86756 4.30455 10.4669 4.6469C11.0663 4.98925 11.5883 5.45199 12.0001 6.00599C12.4136 5.45602 12.9362 4.99731 13.5352 4.6586C14.1341 4.31988 14.7966 4.10844 15.481 4.03751C16.1654 3.96658 16.8571 4.03769 17.5128 4.24639C18.1685 4.45508 18.7741 4.79687 19.2916 5.25036C19.8091 5.70385 20.2275 6.25928 20.5205 6.88189C20.8135 7.50449 20.9748 8.18088 20.9944 8.8687C21.0139 9.55653 20.8913 10.241 20.6342 10.8792C20.3771 11.5175 19.991 12.0958 19.5001 12.578"
+										stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</g>
+								<defs>
+									<clipPath id="clip0_58_157">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<span>Favourites</span>
+						</a>
+					</li>
+					<li>
+						<a class="flex items-center space-x-2 px-5 py-3.5 rounded-lg" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<g clip-path="url(#clip0_58_162)">
+									<path
+										d="M3 12C3 13.1819 3.23279 14.3522 3.68508 15.4442C4.13738 16.5361 4.80031 17.5282 5.63604 18.364C6.47177 19.1997 7.46392 19.8626 8.55585 20.3149C9.64778 20.7672 10.8181 21 12 21C13.1819 21 14.3522 20.7672 15.4442 20.3149C16.5361 19.8626 17.5282 19.1997 18.364 18.364C19.1997 17.5282 19.8626 16.5361 20.3149 15.4442C20.7672 14.3522 21 13.1819 21 12C21 10.8181 20.7672 9.64778 20.3149 8.55585C19.8626 7.46392 19.1997 6.47177 18.364 5.63604C17.5282 4.80031 16.5361 4.13738 15.4442 3.68508C14.3522 3.23279 13.1819 3 12 3C10.8181 3 9.64778 3.23279 8.55585 3.68508C7.46392 4.13738 6.47177 4.80031 5.63604 5.63604C4.80031 6.47177 4.13738 7.46392 3.68508 8.55585C3.23279 9.64778 3 10.8181 3 12Z"
+										stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M12 12L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M12 7V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</g>
+								<defs>
+									<clipPath id="clip0_58_162">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<span>Watch Later</span>
+						</a>
+					</li>
+				</ul>
+			</aside>
+
+			<!-- Content -->
+			<div class="content">
+				Content
+			</div>
+
+		</div>
+	</main>
+	<!-- End Main -->
+</body>
+
+</html>
